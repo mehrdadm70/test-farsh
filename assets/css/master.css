@@ -262,6 +262,45 @@ h6 {
   margin-top: 15px;
 }
 
+.arrow-slider-right {
+  margin: 0px -23px;
+  background: white;
+  z-index: 9;
+  width: 40px;
+  height: 91px;
+  border-radius: 0px 15px 15px 0px;
+  border: solid 3px #eeeeee;
+  padding-bottom: 10px;
+}
+.arrow-slider-left {
+  margin: 0px -23px;
+  background: white;
+  z-index: 9;
+  width: 40px;
+  height: 91px;
+  border-radius: 15px 0px 0px 15px;
+  border: solid 3px #eeeeee;
+  padding-bottom: 10px;
+}
+
+.item-select-color-slider {
+  padding: 10px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  text-align: left;
+}
+.item-select-color-slider-image {
+  height: 230px !important;
+}
+.tag-color {
+  display: table-cell;
+  width: auto;
+  padding: 4px 15px;
+  height: 27px;
+  border-radius: 10px;
+  font-size: smaller;
+}
+
 /*------------------------------------------------------------------*/
 .carousel-nav-icon {
   height: 15px;
