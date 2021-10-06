@@ -87,14 +87,20 @@ h6 {
   width: auto;
 }
 
-.nav-item{
+.nav-item {
   margin: 0px 2px;
 }
 .header {
   border-radius: 20px;
   background-color: #ffffff;
   padding: 15px 5px;
+}
 
+.sell-title {
+  display: none;
+  font-size: 0.8rem;
+  margin: 2px 70px;
+  color: #af1897;
 }
 
 .logo {
@@ -118,7 +124,7 @@ h6 {
 
 .input-search {
   width: 25rem;
-   /*max-width: 390px; */
+  /*max-width: 390px; */
   height: 45px;
   border-radius: 10px;
   border: #999999 solid 1px;
@@ -137,8 +143,13 @@ h6 {
   border-radius: 10px;
   border-color: #999999;
   color: #999999;
-  height: 48px;
+  height: 45px;
   font-size: 12px;
+  margin: 10px 0px;
+}
+.icon-login {
+  margin: 20px 0px;
+  display: none;
 }
 
 ::-webkit-input-placeholder {
@@ -232,8 +243,6 @@ h6 {
   padding: 8px 12px;
   box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 18%);
 }
-
-
 
 /*------------------------------------------------------------------*/
 .carousel-nav-icon {
@@ -593,19 +602,12 @@ tr {
 /*------------------------------------------------------------------
 [11. Responsive properties] 
 */
-@media (max-width: 992px){
-  .btn-header{
-    display: none;
+@media (min-width: 1400px) {
+  .input-search {
+    width: 33rem;
   }
-  .underSliderBackgrand {
-    display: none !important;
-  }
-
-}
-
-@media (max-width: 768px) {
-  .display-absolute {
-    position: relative;
+  .btn-header {
+    font-size: 14px;
   }
 }
 
@@ -639,6 +641,12 @@ tr {
   #body .nav-dropdown .nav-item span {
     display: none !important;
   }
+  .btn-login {
+    display: none !important;
+  }
+  .icon-login {
+    display: block !important;
+  }
 
   /* .btn-header {
     display: none  !important;
@@ -658,6 +666,36 @@ tr {
   } */
 }
 
+@media (max-width: 1140px) {
+  .input-search {
+    width: 19rem;
+  }
+  .resp-fit {
+    margin-right: -23px;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn-header {
+    display: none;
+  }
+  .sell-title {
+    display: block;
+  }
+  .underSliderBackgrand {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-absolute {
+    position: relative;
+  }
+  .sell-title {
+    display: none;
+  }
+}
+
 @media (min-width: 200px) {
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
@@ -670,7 +708,7 @@ tr {
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  h5{
-    font-size: 17px;
+  h5 {
+    font-size: 16px;
   }
 }
