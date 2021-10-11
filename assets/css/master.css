@@ -376,7 +376,7 @@ h7 {
   padding: 0.375rem 1.5rem;
 }
 .footer2 {
-  height: 400px;
+  height: auto;
   background-color: #202020;
 }
 .footer1 {
@@ -388,6 +388,40 @@ h7 {
   background-color: #202020;
   color: white;
   text-align: center;
+}
+.social-net > * {
+  vertical-align: bottom;
+}
+.nemad-style {
+  background-color: white;
+  height: 110px;
+  width: 100px;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.text-footer {
+  padding: 5px 0px 5px 50px;
+  margin: 20px 0px;
+  color: white;
+}
+
+.ul-footer {
+  list-style: none;
+  font-size: smaller;
+  font-family: Anjoman_Light;
+  color: white;
+  line-height: 30px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.table-footer {
+  font-size: smaller;
+  font-family: Anjoman_Light;
+  color: white;
 }
 /*------------------------------------------------------------------*/
 .carousel-nav-icon {
